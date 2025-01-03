@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { FaBars, FaTimes } from 'react-icons/fa';
 import './Header.css'; 
 
 const Header = () => {
@@ -9,10 +10,12 @@ const Header = () => {
     <header className="header">
       <div className="header-content">
         <h1 className="logo">Jaskaran Dhaul</h1>
-        <button className="menu-toggle" onClick={() => setIsMenuOpen(!isMenuOpen)}>
-          <span></span>
-          <span></span>
-          <span></span>
+        <button 
+          className="menu-toggle" 
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+        >
+          {isMenuOpen ? <FaTimes /> : <FaBars />}
         </button>
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
           <ul className="nav-links">
