@@ -3,15 +3,17 @@ import './Header.css';
 
 const Header = () => {
   return (
-    <header>
-      <h1>Jaskaran Dhaul</h1>
-      <nav>
-        <ul>
-          <li><a href="#home">About</a></li>
-          <li><a href="#about">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
+    <header className="header">
+      <div className="header-content">
+        <h1 className="logo">Jaskaran Dhaul</h1>
+        <nav>
+          <ul className="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 };
