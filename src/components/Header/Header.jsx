@@ -6,6 +6,12 @@ const Header = () => {
 
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    setIsMenuOpen(false);
+    element.scrollIntoView({ behavior: 'smooth' });
+  };
+
   return (
     <header className="header">
       <div className="header-content">
@@ -19,11 +25,11 @@ const Header = () => {
         </button>
         <nav className={`nav ${isMenuOpen ? 'nav-open' : ''}`}>
           <ul className="nav-links">
-            <li><a href="#about" onClick={() => setIsMenuOpen(false)}>About</a></li>
-            <li><a href="#experience" onClick={() => setIsMenuOpen(false)}>Experience</a></li>
-            <li><a href="#projects" onClick={() => setIsMenuOpen(false)}>Projects</a></li>
-            <li><a href="#education" onClick={() => setIsMenuOpen(false)}>Education</a></li>
-            <li><a href="#contact" onClick={() => setIsMenuOpen(false)}>Contact</a></li>
+            <li><a href="#about"      onClick={() => scrollToSection("about")}>About</a></li>
+            <li><a href="#experience" onClick={() => scrollToSection("experience")}>Experience</a></li>
+            <li><a href="#projects"   onClick={() => scrollToSection("projects")}>Projects</a></li>
+            <li><a href="#education"  onClick={() => scrollToSection("education")}>Education</a></li>
+            <li><a href="#contact"    onClick={() => scrollToSection("contact")}>Contact</a></li>
           </ul>
         </nav>
       </div>

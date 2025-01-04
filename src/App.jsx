@@ -7,8 +7,12 @@ function App() {
   return (
     <> 
       <Header />
-      <About />
-      <Experience />
+      <section id="about">
+        <About />
+      </section>
+      <section id="experience">
+        <Experience />
+      </section>
     </>
   )
 }
