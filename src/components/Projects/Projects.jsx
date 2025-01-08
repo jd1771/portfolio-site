@@ -1,5 +1,6 @@
 import React from 'react';
 import {FaGithub, FaGlobe} from "react-icons/fa";
+import './Projects.css';
 
 const projectData = [
     {
