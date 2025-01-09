@@ -39,12 +39,26 @@ const ProjectTile = ({ title, description, githubUrl, liveUrl }) => {
         <p className="project-description">{description}</p>
         <div className="project-links">
           {githubUrl && (
-            <a href={githubUrl} target="_blank" rel="noopener noreferrer" className="project-link" aria-label={`GitHub repository for ${title}`}>
+            <a 
+              href={githubUrl} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="project-link" 
+              title="View GitHub Repository"
+              aria-label={`GitHub repository for ${title}`}
+            >
               <FaGithub size={24} />
             </a>
           )}
           {liveUrl && (
-            <a href={liveUrl} target="_blank" rel="noopener noreferrer" className="project-link" aria-label={`Live site for ${title}`}>
+            <a 
+              href={liveUrl} 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="project-link"
+              title="View Live Site"
+              aria-label={`Live site for ${title}`}
+            >
               <FaGlobe size={24} />
             </a>
           )}
