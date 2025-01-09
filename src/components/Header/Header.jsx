@@ -28,7 +28,6 @@ const Header = () => {
             <li><a href="#about"      onClick={() => scrollToSection("about")}>About</a></li>
             <li><a href="#experience" onClick={() => scrollToSection("experience")}>Experience</a></li>
             <li><a href="#projects"   onClick={() => scrollToSection("projects")}>Projects</a></li>
-            <li><a href="#education"  onClick={() => scrollToSection("education")}>Education</a></li>
             <li><a href="#contact"    onClick={() => scrollToSection("contact")}>Contact</a></li>
           </ul>
         </nav>
