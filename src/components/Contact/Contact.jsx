@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css';
 import mailSvg from '../../assets/mail.svg';
+import { FaPaperPlane } from 'react-icons/fa';
 
 const Contact = () => {
   const handleSubmit = (e) => {
@@ -45,7 +46,7 @@ const Contact = () => {
               ></textarea>
             </div>
             <button type="submit" className="submit-button">
-              Send Message
+              Send Message <FaPaperPlane className="send-icon" />
             </button>
           </form>
         </div>
