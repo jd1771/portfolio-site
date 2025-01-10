@@ -64,7 +64,7 @@
 }
 
 .submit-button {
-    background-color: #4a90e2;
+    background-image: linear-gradient(to right top, #4a90e2, #359ce7, #1fa7ea, #0bb2eb, #12bceb);
     color: white;
     padding: 12px 32px;
     border: none;

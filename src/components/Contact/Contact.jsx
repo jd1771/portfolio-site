@@ -6,12 +6,11 @@ import { FaPaperPlane } from 'react-icons/fa';
 const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add form submission logic here
   };
 
   return (
     <section className="contact-section">
-      <h2 className="contact-title">Get In Touch</h2>
+      <h2 className="contact-title">Let's get in touch!</h2>
       <div className="contact-container">
         <div className="contact-image">
           <img src={mailSvg} alt="Contact illustration" />
