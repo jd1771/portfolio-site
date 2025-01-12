@@ -31,7 +31,7 @@ const Footer = () => {
             <MdEmail className="social-icon" />
           </a>
         </div>
-        <p className="footer-text">© {new Date().getFullYear()} Your Name. All rights reserved.</p>
+        <p className="footer-text">© {new Date().getFullYear()} Jaskaran Dhaul. All rights reserved.</p>
       </div>
     </footer>
   );

@@ -4,6 +4,7 @@ import About from './components/About/About.jsx'
 import Experience from './components/Experience/Experience.jsx'
 import Projects from './components/Projects/Projects.jsx'
 import Contact from './components/Contact/Contact.jsx'
+import Footer from './components/Footer/Footer.jsx'
 import FadeIn from './components/other/FadeIn.jsx'
 
 function App() {
@@ -28,6 +29,11 @@ function App() {
       <FadeIn>
         <section id="contact">
           <Contact />
+        </section>
+      </FadeIn>
+      <FadeIn>
+        <section id="footer">
+          <Footer />
         </section>
       </FadeIn>
     </>
