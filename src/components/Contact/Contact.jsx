@@ -44,8 +44,8 @@ const Contact = () => {
                 required 
               ></textarea>
             </div>
-            <button type="submit" className="submit-button">
-              Send Message <FaPaperPlane className="send-icon" />
+            <button type="submit" className="contact-form-button">
+              Send Message <FaPaperPlane className="contact-form-button-icon" />
             </button>
           </form>
         </div>

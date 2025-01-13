@@ -50,14 +50,14 @@ const AboutMe = () => {
   }, [displayText, currentIndex, isDeleting]);
 
   return (
-    <section className="about" id="about">
+    <section className="about-section" id="about">
       <div className="container">
-        <h1 className="intro-text">Hello, I'm Jas</h1>
-        <h2 className="subtitle">
+        <h1 className="about-title">Hello, I'm Jas</h1>
+        <h2 className="about-subtitle">
           {displayText}
           <span className="cursor"></span>
         </h2>
-        <p className="scroll-message">Scroll below to learn more about me!</p>
+        <p className="about-scroll-message">Scroll below to learn more about me!</p>
       </div>
     </section>
   );

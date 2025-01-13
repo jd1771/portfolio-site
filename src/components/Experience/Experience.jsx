@@ -26,9 +26,9 @@ const experienceData = [
 
 const Experience = () => {
   return (
-    <section className="experience" id="experience">
+    <section className="experience-section" id="experience">
       <div className="container">
-        <h2 className="section-title">My Experience</h2>
+        <h2 className="experience-title">My Experience</h2>
         <div className="timeline">
           {experienceData.map((item, index) => (
             <div key={index} className="timeline-item">

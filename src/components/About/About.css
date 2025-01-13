@@ -1,4 +1,4 @@
-.about {
+.about-section {
   min-height: calc(100vh - 80px);
   display: flex;
   align-items: center;
@@ -7,14 +7,14 @@
   padding: 2rem 0;
 }
 
-.intro-text {
+.about-title {
   font-size: 3.5rem;
   font-weight: 600;
   color: #333333;
   margin-bottom: 1rem;
 }
 
-.subtitle {
+.about-subtitle {
   font-size: 2rem;
   font-weight: 400;
   color: #3a86ff;
@@ -22,7 +22,7 @@
   min-height: 2.5rem;
 }
 
-.scroll-message {
+.about-scroll-message {
   font-size: 1.2rem;
   color: #666666;
   animation: bounce 2s infinite;
@@ -59,15 +59,15 @@
 }
 
 @media (max-width: 768px) {
-  .intro-text {
+  .about-title {
     font-size: 2.5rem;
   }
 
-  .subtitle {
+  .about-subtitle {
     font-size: 1.5rem;
   }
 
-  .scroll-message {
+  .about-scroll-message {
     font-size: 1rem;
   }
 }
