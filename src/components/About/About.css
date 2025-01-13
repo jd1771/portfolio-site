@@ -19,6 +19,7 @@
   font-weight: 400;
   color: #3a86ff;
   margin-bottom: 2rem;
+  min-height: 2.5rem;
 }
 
 .scroll-message {
@@ -36,6 +37,24 @@
   }
   60% {
     transform: translateY(-10px);
+  }
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  height: 1em;
+  background-color: #3a86ff;
+  margin-left: 5px;
+  animation: blink 1s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
   }
 }
 
