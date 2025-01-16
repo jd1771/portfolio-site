@@ -5,27 +5,34 @@
   justify-content: center;
   text-align: center;
   padding: 2rem 0;
+  background-image: url('../../assets/mountain.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .about-title {
   font-size: 3.5rem;
   font-weight: 600;
-  color: #333333;
+  color: #ffffff;
   margin-bottom: 1rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .about-subtitle {
   font-size: 2rem;
   font-weight: 400;
-  color: #3a86ff;
+  color: #ffffff;
   margin-bottom: 2rem;
   min-height: 2.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .about-scroll-message {
   font-size: 1.2rem;
-  color: #666666;
+  color: #ffffff;
   animation: bounce 2s infinite;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 @keyframes bounce {
