@@ -1,8 +1,7 @@
 .footer {
-    background-color: #ffffff;
+    background-color: var(--white-color);
     padding: 2rem 0;
     margin-top: 4rem;
-    border-top: 0.0625rem solid #eaeaea;
 }
 
 .footer-content {
@@ -20,17 +19,16 @@
 
 .social-icon {
     font-size: 1.8rem;
-    color: #4a90e2;
+    color: var(--secondary-color);
     transition: all 0.3s ease;
 }
 
 .social-icon:hover {
-    color: #357abd;
+    color: var(--hover-color);
     transform: translateY(-3px);
 }
 
 .footer-text {
-    color: #666;
     font-size: 0.9rem;
 }
 
