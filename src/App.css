@@ -41,13 +41,13 @@ p {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--text-color);
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 a:hover {
-  color: darken(var(--primary-color), 10%);
+  color: var(--primary-color);;
 }
 
 .btn {

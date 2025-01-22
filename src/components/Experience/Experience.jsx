@@ -16,7 +16,15 @@ const Experience = () => {
               </div>
               <div className="timeline-content">
                 <h3>{item.title}</h3>
-                <h4>{item.company}</h4>
+                <h4>
+                  <a 
+                    href={item.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                  >
+                    {item.company}
+                  </a>
+                </h4>
                 <p className="period">{item.period}</p>
                 <p>{item.description}</p>
               </div>

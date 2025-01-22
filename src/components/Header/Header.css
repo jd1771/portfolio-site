@@ -33,16 +33,8 @@ header {
 }
 
 .nav-links a {
-  color: #333333;
-  text-decoration: none;
   font-size: 1rem;
   font-weight: 600;
-  font-family: 'Poppins', sans-serif;
-  transition: color 0.3s ease;
-}
-
-.nav-links a:hover {
-  color: #3a86ff;
 }
 
 .menu-toggle {
