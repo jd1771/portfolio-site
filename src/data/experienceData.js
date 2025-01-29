@@ -12,7 +12,7 @@ export const experienceData = [
     period: "Jan 2023 - Apr 2023",
     description: "Worked on both frontend and backend development, creating APIs to streamline workflows and ensuring compatibility and performance for applications across multiple platforms.",
     link: "https://www2.gov.bc.ca/gov/content/home"
-  },
+},
   {
     title: "Programmer Analyst Intern",
     company: "BC Public Service",
