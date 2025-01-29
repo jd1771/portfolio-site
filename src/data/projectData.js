@@ -7,18 +7,24 @@ export const projectData = [
   },
   {
     id: 2,
+    title: "LinkedIn Block",
+    description: "A Chrome extension that helps declutter your LinkedIn job search by allowing you to block specific companies from appearing in your job postings list.",
+    githubUrl: "https://github.com/jd1771/LinkedInBlock",
+  },
+  {
+    id: 3,
     title: "Crypto Notifier",
     description: "A Discord bot using the Discord API and MongoDB to provide real-time cryptocurrency price alerts, integrating Coinbase's API for up-to-date market data.",
     githubUrl: "https://github.com/jd1771/crypto-notifier",
   },
   {
-    id: 3,
+    id: 4,
     title: "ML-Artwork",
     description: "A machine learning project leveraging CNNs and ResNets to classify artists based on brush strokes, color choices, and style, with optimized training using image normalization.",
     githubUrl: "https://github.com/jd1771/ML-Artwork",
   },
   {
-    id: 4,
+    id: 5,
     title: "Portfolio Website",
     description: "A responsive personal portfolio built with React.js to showcase projects, experience, and skills.",
     githubUrl: "https://github.com/jd1771",
