@@ -9,3 +9,45 @@ html, body {
   width: 100%;
   overflow-x: hidden;
 }
+
+@media (max-width: 768px) {
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  
+  * {
+    scrollbar-width: none;
+  }
+  
+  * {
+    -ms-overflow-style: none;
+  }
+  
+  /* Ensure content still scrolls smoothly */
+  body {
+    -webkit-overflow-scrolling: touch;
+  }
+}
+
+section {
+  position: relative;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 100%;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
